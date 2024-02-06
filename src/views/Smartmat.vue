@@ -27,7 +27,7 @@ import {RouterLink} from "vue-router";
       <h3> frontend </h3>
     </a>
       <a href="https://gitlab.stud.idi.ntnu.no/idatt2106-v23-12/idatt2106_2023_12-backend" target="_blank" rel="noopener">
-        <h4> backend </h4>
+        <h9> backend </h9>
       </a>
     </div>
   </div>
@@ -44,7 +44,7 @@ import {RouterLink} from "vue-router";
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   }
-  h3, h4{
+  h3, h9{
     background-color: #fed9ca;
     flex: 1; /* Each container takes up equal space */
     border-radius: 10px;
@@ -55,11 +55,11 @@ import {RouterLink} from "vue-router";
     font-weight: bold;
     display: inline-block;
   }
-  h3:hover, h4:hover{
+  h3:hover, h9:hover{
     font-size: 16px;
     margin: 10px;
   }
-  h1, h3, h4{
+  h1, h3, h9{
     font-size: 15px;
   }
   .text-box{
