@@ -10,17 +10,34 @@ import {RouterLink} from "vue-router";
       <img alt="LinkedIn logo" class="icon" src="@/assets/images/linkedin.svg" width="20" height="20" />
     </a>
   </nav>
-  <div class="about">
-    <h1>Jeg heter Abhirami Karunananthan og er for øyeblikket sisteårsstudent innen bachelor i dataingeniør ved NTNU Trondheim. Min lidenskap for teknologi og utvikling er det som drev meg til å velge dette studieprogrammet. Gjennom mine akademiske opplevelser har jeg utviklet solid kunnskap innenfor  programmering, samtidig som jeg kontinuerlig søker nye utfordringer og muligheter for faglig vekst. Jeg er dedikert til å bidra til innovasjon og teknologisk fremgang, og ser frem til å anvende mine ferdigheter og lidenskap i en profesjonell setting.</h1>
-    <h2> Programmeringsspråk:
-      <h3> Java, Python, Kotlin,<br/> Javascript, C++ & SQL </h3></h2>
+  <div>
+    <div id="about">
+      <h1>Om meg:</h1>
+      <p>Jeg heter <b class="bold">Abhirami Karunananthan</b> og er 23 år. For øyeblikket er jeg sisteårsstudent innen
+        bachelor i <b class="bold">dataingeniør</b> ved <b class="bold">NTNU Trondheim</b>. Min lidenskap for teknologi og utvikling er det
+        som drev meg til å velge dette studieprogrammet. Gjennom mine akademiske opplevelser har jeg
+        utviklet solid kunnskap innenfor  <b class="bold">programmering</b>, samtidig som jeg kontinuerlig søker nye
+        utfordringer og muligheter for <b class="bold">faglig vekst</b>. Jeg er dedikert til å bidra til <b class="bold">innovasjon</b> og
+        <b class="bold">teknologisk fremgang</b>, og ser frem til å anvende mine ferdigheter og lidenskap i en profesjonell
+        setting.</p>
+    </div>
+
+    <div id="inforow">
+      <div class="information">
+        <h1> Programmeringsspråk:</h1>
+        <p> Java, Python, Kotlin,<br/> Javascript, C++ & SQL </p>
+      </div>
+      <div class="information">
+        <h1>Kontakt:</h1>
+        <p> Tlf: 40851669 <br/>
+          Email: k_abhirami@hotmail.com</p>
+      </div>
+    </div>
+
   </div>
-  <h4>Kontakt:
-    <h5> Tlf: 40851669 <br/>
-      Email: k_abhirami@hotmail.com</h5></h4>
 </template>
 
-<style>
+<style scoped>
 
 @media (min-width: 1024px) {
   header {
@@ -28,7 +45,22 @@ import {RouterLink} from "vue-router";
     max-height: 100vh;
   }
 
+  #about{
+    background-color: #fed9ca;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
 
+  .information{
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  p{
+
+  }
   nav {
     width: 100%;
     font-size: 12px;
@@ -53,55 +85,24 @@ import {RouterLink} from "vue-router";
     margin-top: 1rem;
   }
 
-  .about h1 {
+  .bold{
+    font-weight: bold;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #inforow{
     display: flex;
+    flex-direction: row;
+    gap: 100px;
     align-items: center;
-    background-color: #fed9ca;
-    color: #363636;
-    padding: 30px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    font-size: 18px;
+    justify-content: center;
+    margin: 20px;
   }
 
 
-
-  .about h2 {
-    background-color: #ffffff;
-    color: #7d7d7d;
-    font-size: 15px;
-    font-weight: bold;
-    position: fixed;
-    border-radius: 1000px;
-    padding: 20px;
-
-  }
-  h4 {
-    background-color: #ffffff;
-    color: #7d7d7d;
-    font-size: 15px;
-    font-weight: bold;
-    position: fixed;
-    border-radius: 1000px;
-    padding: 20px;
-    right: 13%;
-    bottom: -1%;
-
-  }
-
-  .about h3 {
-    background-color: #ffffff;
-    color: #7d7d7d;
-    font-size: 15px;
-    border-radius: 100%;
-  }
-   h5 {
-    background-color: #ffffff;
-    color: #7d7d7d;
-    font-size: 15px;
-     right: 0;
-     bottom: 0;
-    border-radius: 100%;
-  }
 }
 </style>
