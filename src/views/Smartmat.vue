@@ -34,7 +34,7 @@ import {RouterLink} from "vue-router";
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   header {
     line-height: 1.5;
     max-height: 100vh;
