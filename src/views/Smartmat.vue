@@ -23,12 +23,16 @@ import {RouterLink} from "vue-router";
       matretter basert på tilgjengelige restematvarer i deres kjøleskap.</h2> Smartmat ble designet med
       responsivt grensesnitt som tilpasser seg både mobiltelefoner og datamaskiner, noe som gir en dynamisk
       brukeropplevelse på ulike enheter. Sjekk ut repoene:
-    </h1><a href="https://gitlab.stud.idi.ntnu.no/idatt2106-v23-12/idatt2106_2023_12-frontend" target="_blank" rel="noopener">
-      <h3> frontend </h3>
-    </a>
-      <a href="https://gitlab.stud.idi.ntnu.no/idatt2106-v23-12/idatt2106_2023_12-backend" target="_blank" rel="noopener">
-        <h9> backend </h9>
-      </a>
+    </h1>
+      <div>
+        <a href="https://gitlab.stud.idi.ntnu.no/idatt2106-v23-12/idatt2106_2023_12-frontend" target="_blank" rel="noopener">
+          <h3> frontend </h3>
+        </a>
+        <a href="https://gitlab.stud.idi.ntnu.no/idatt2106-v23-12/idatt2106_2023_12-backend" target="_blank" rel="noopener">
+          <h9> backend </h9>
+        </a>
+      </div>
+
     </div>
   </div>
 </template>
