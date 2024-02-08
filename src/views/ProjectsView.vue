@@ -15,18 +15,18 @@ import {RouterLink} from "vue-router";
   <div class="container">
     <div class="innercontainer">
       <div class="informationtext">
-        <p>Da jeg i fjor sommer var intern hos Zedge Europe AS, fikk jeg
-          gleden av å lære meg kotlin, lansere en app på google play store og ikke minst lære av dyktige
-          medstudenter. </p>
+        <p>Da jeg startet på dataingeniørstudiet, hadde jeg aldri trodd at jeg etter kun to år skulle
+          være med på å lansere en app på Google Play Store. Dette er uten tvil noe jeg er stolt av å ha
+          fått til på så kort tid. Da jeg var intern hos Zedge Europe AS i fjor sommer, fikk jeg gleden av
+          å lære meg Kotlin og med medstudenter lansere en applikasjon på kun et par uker over sommeren, til tross for
+          manglende forkunnskaper i Kotlin. </p>
       </div>
       <RouterLink class="buttons" to="/weeeve">Weeeve</RouterLink>
     </div>
     <div class="innercontainer">
       <div class="informationtext">
-        <p> Gjennom et skole prosjekt i faget systemutvikling 2 fikk jeg muligheten til å lage en applikasjon for å
-          bekjempe matsvinn med
-          medstudentene mine. Vi tok i bruk den effektive scrum metodikken gjennom prosjektet, og dette førte til et godt
-          og effektivt samarbeid</p>
+        <p> Oppvokst i et hjem der selv den minste matrest ble verdsatt og matsvinn var betraktet som så godt som ulovlig, ble jeg tidlig bevisstgjort viktigheten av å bevare ressurser. Derfor sto et prosjekt vi gjennomførste i et fag på studie meg nær hjertet, og det var ekstra spennende å jobbe med. Gjennom prosjektet fikk jeg muligheten til å lage en applikasjon for å
+          bekjempe matsvinn, med mine medstudenter. </p>
       </div>
       <RouterLink class="buttons" to="/smartmat">Smartmat</RouterLink>
     </div>
@@ -61,7 +61,7 @@ import {RouterLink} from "vue-router";
     margin: 10px;
     font-size: 14px;
     max-width: 400px;
-    min-height: 220px;
+    min-height: 300px;
   }
 
   .buttons {

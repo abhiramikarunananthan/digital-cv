@@ -17,10 +17,9 @@ import {RouterLink} from "vue-router";
     <img alt="Vue logo" class="image" src="@/assets/images/weeeve.png" width="485" height="200"/>
 
     <div class="info-box">
-      <p> Vi brukte blant annet AI-verktøyet ML-kit av google for ansiktsgjennkjenning
-        og ikke minst cameraX. <b class="bold">Applikasjonen lot brukeren lage egendefinerte GIFs ved å
-        velge mellom en håndfull avatarer, ta bilde av seg selv med ulike grimaser</b>, og til
-        slutt få sin egendefinert GIF til å dele med venner og familie.
+      <p> Vi brukte blant annet AI-verktøyet ML-kit av google for ansiktsgjennkjenning. Applikasjonen lot brukeren lage  <b class="bold"> egendefinerte GIFs ved å
+        velge mellom en håndfull avatarer, ta bilde av seg selv med ulike grimaser, og til
+        slutt få sin egendefinert GIF</b> til å dele med venner og familie.
       </p>
       <div class="buttonswhatever">
         <a href="https://play.google.com/store/apps/details?id=online.weeeve" target="_blank" rel="noopener">

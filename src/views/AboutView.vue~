@@ -88,7 +88,7 @@ import {RouterLink} from "vue-router";
   }
 
   .big{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
   }
   h1{
