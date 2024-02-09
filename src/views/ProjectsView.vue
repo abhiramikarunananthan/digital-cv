@@ -25,7 +25,7 @@ import {RouterLink} from "vue-router";
     </div>
     <div class="innercontainer">
       <div class="informationtext">
-        <p> Oppvokst i et hjem der selv den minste matrest ble verdsatt og matsvinn var betraktet som så godt som ulovlig, ble jeg tidlig bevisstgjort viktigheten av å bevare ressurser. Derfor sto et prosjekt vi gjennomførste i et fag på studie meg nær hjertet, og det var ekstra spennende å jobbe med. Gjennom prosjektet fikk jeg muligheten til å lage en applikasjon for å
+        <p> Oppvokst i et hjem der selv den minste matrest ble verdsatt og matsvinn var betraktet som så godt som ulovlig, ble jeg tidlig bevisstgjort viktigheten av å bevare ressurser. Derfor sto et prosjekt vi gjennomførte i et fag på studie meg nær hjertet, og det var ekstra spennende å jobbe med. Gjennom prosjektet fikk jeg muligheten til å lage en applikasjon for å
           bekjempe matsvinn, med mine medstudenter. </p>
       </div>
       <RouterLink class="buttons" to="/smartmat">Smartmat</RouterLink>
