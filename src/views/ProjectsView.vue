@@ -15,18 +15,25 @@ import {RouterLink} from "vue-router";
   <div class="container">
     <div class="innercontainer">
       <div class="informationtext">
-        <p>Da jeg startet på dataingeniørstudiet, hadde jeg aldri trodd at jeg etter kun to år skulle
-          være med på å lansere en app på Google Play Store. Dette er uten tvil noe jeg er stolt av å ha
-          fått til på så kort tid. Da jeg var intern hos Zedge Europe AS i fjor sommer, fikk jeg gleden av
-          å lære meg Kotlin og med medstudenter lansere en applikasjon på kun et par uker over sommeren, til tross for
-          manglende forkunnskaper i Kotlin. </p>
+        <p>Mitt sommerinternship hos Zedge AS var en milepæl,
+          hvor jeg på få uker over sommeren fikk muligheten til
+          å lære meg Kotlin og sammen med det tverrfaglige teamet
+          mitt lansere en applikasjon på Google Play Store. Denne opplevelsen
+          fikk meg til å innse min evne til å lære teknologier på kort tid med
+          hjelp av dyktige kolleger rundt meg.</p>
       </div>
       <RouterLink class="buttons" to="/weeeve">Weeeve</RouterLink>
     </div>
     <div class="innercontainer">
       <div class="informationtext">
-        <p> Oppvokst i et hjem der selv den minste matrest ble verdsatt og matsvinn var betraktet som så godt som ulovlig, ble jeg tidlig bevisstgjort viktigheten av å bevare ressurser. Derfor sto et prosjekt vi gjennomførte i et fag på studie meg nær hjertet, og det var ekstra spennende å jobbe med. Gjennom prosjektet fikk jeg muligheten til å lage en applikasjon for å
-          bekjempe matsvinn, med mine medstudenter. </p>
+        <p> En av mine favoritt prosjekt jeg fikk gleden av
+          å være med på var gjennom et prosjekt i
+          faget Systemutvikling 2. Dette prosjektet ga
+          meg et realistisk innblikk i arbeidslivet, hvor jeg
+          lærte verdien av scrum metodikken og betydningen av
+          strukturert samarbeid. Det var en øyeåpnende erfaring
+          som styrket min forståelse for teamarbeid og smidig
+          arbeidsmetoder. </p>
       </div>
       <RouterLink class="buttons" to="/smartmat">Smartmat</RouterLink>
     </div>
