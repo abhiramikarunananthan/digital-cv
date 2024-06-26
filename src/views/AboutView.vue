@@ -4,9 +4,14 @@ import {RouterLink} from "vue-router";
 </script>
 <template>
   <nav>
-    <RouterLink to="/about">Om meg</RouterLink>
-    <RouterLink to="/projects">Prosjekter</RouterLink>
+    <RouterLink to="/about">Om meg
+      <img alt="about_logo" class="about" src="@/assets/images/woman.svg" width="30" height="30" />
+    </RouterLink>
+    <RouterLink to="/projects">Prosjekter
+      <img alt="projects_logo" class="project" src="@/assets/images/projects.svg" width="25" height="25" />
+    </RouterLink>
     <a href="https://no.linkedin.com/in/abhirami-karunananthan-b81a5522a?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener">
+      <span class="linkedin-text">LinkedIn </span>
       <img alt="LinkedIn logo" class="icon" src="@/assets/images/linkedin.svg" width="20" height="20" />
     </a>
   </nav>
@@ -38,6 +43,19 @@ import {RouterLink} from "vue-router";
 <style scoped>
 
 @media (max-width: 1023px) {
+
+  .icon{
+    vertical-align: middle;
+  }
+
+  .project{
+    vertical-align: middle;
+    margin-top: 3px;
+  }
+  .about{
+    vertical-align: middle;
+    margin-top: 3px;
+  }
   header {
     line-height: 1.5;
     max-height: 100vh;
@@ -65,10 +83,11 @@ import {RouterLink} from "vue-router";
     width: 100%;
     font-size: 12px;
     text-align: end;
-    margin-top: 4rem;
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
+    background-color: white;
+
   }
 
   nav a {
@@ -78,11 +97,12 @@ import {RouterLink} from "vue-router";
   }
 
   nav {
-    text-align: right;
+    text-align: center;
     margin-left: -1rem;
-    font-size: 1rem;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
     padding: 1rem 0;
-    margin-top: 1rem;
   }
 
   .bold {
@@ -102,13 +122,19 @@ import {RouterLink} from "vue-router";
   #inforow {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     margin: 20px;
   }
 }
   @media (min-width: 1024px) {
+    .project{
+      display: none;
+    }
+    .about{
+      display: none;
+    }
     header {
       line-height: 1.5;
       max-height: 100vh;
@@ -174,6 +200,10 @@ import {RouterLink} from "vue-router";
       align-items: center;
       justify-content: center;
       margin: 20px;
+    }
+
+    .linkedin-text {
+      display: none;
     }
 
 
