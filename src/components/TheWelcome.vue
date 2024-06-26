@@ -27,47 +27,101 @@ import {RouterLink} from "vue-router";
 
 <style scoped>
 
-.card{
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-  border-radius: 20%;
-  margin: 10px;
-  align-content: center;
-  text-align: center;
-}
 
-.about{
-  background-color: #ffffff;
-  border-radius: 20%;
-  margin: 10px;
-  align-content: center;
-  text-align: center;
+@media (max-width: 768px) {
+  .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 1px;
+    align-content: center;
+    text-align: center;
+  }
 
-}
+  .about {
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
 
-.projects{
-  background-color: #ffffff;
-  border-radius: 20%;
-  margin: 10px;
-  align-content: center;
-  text-align: center;
-}
-.projects:hover {
-  transform: rotate(2deg); /* Apply a slight rotation on hover */
-}
-.card:hover {
-  transform: rotate(2deg); /* Apply a slight rotation on hover */
-}
-.about:hover {
-  transform: rotate(2deg); /* Apply a slight rotation on hover */
+  }
+
+  .projects {
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .projects:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
+  }
+
+  .card:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
+  }
+
+  .about:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
 
 
-}
-.cards{
-  font-size: 50px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
+  }
 
+  .cards {
+    font-size: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .about {
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+
+  }
+
+  .projects {
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .projects:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
+  }
+
+  .card:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
+  }
+
+  .about:hover {
+    transform: rotate(2deg); /* Apply a slight rotation on hover */
+
+
+  }
+
+  .cards {
+    font-size: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+}
 </style>
