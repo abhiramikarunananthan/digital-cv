@@ -28,7 +28,7 @@ import {RouterLink} from "vue-router";
 <style scoped>
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .card {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;

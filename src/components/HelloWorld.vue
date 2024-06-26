@@ -30,7 +30,7 @@ h1 {
     text-align: left;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .greetings h1,
   .greetings h3 {
     text-align: center;
