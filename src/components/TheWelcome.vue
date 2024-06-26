@@ -36,6 +36,7 @@ import {RouterLink} from "vue-router";
     margin: 1px;
     align-content: center;
     text-align: center;
+    margin-top: 70px;
   }
 
   .about {
