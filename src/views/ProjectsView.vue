@@ -79,11 +79,11 @@ import {RouterLink} from "vue-router";
     flex: 1;
     background-color: #ffffff;
     border-radius: 10%;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    font-size: 14px;
-    max-width: 400px;
+    margin: 5px;
+    font-size: 12px;
+    width: 178px;
     min-height: 300px;
   }
 
