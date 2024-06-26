@@ -73,6 +73,7 @@ import {RouterLink} from "vue-router";
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
   }
 
   .informationtext {
@@ -81,10 +82,12 @@ import {RouterLink} from "vue-router";
     border-radius: 10%;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 5px;
     font-size: 12px;
     width: 178px;
+    margin: 2px;
     min-height: 300px;
+
+
   }
 
   .buttons {

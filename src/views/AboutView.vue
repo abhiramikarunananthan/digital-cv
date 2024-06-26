@@ -5,14 +5,14 @@ import {RouterLink} from "vue-router";
 <template>
   <nav>
     <RouterLink to="/about">Om meg
-      <img alt="about_logo" class="about" src="@/assets/images/woman.svg" width="30" height="30" />
+      <img alt="about_logo" class="about" src="@/assets/images/woman.svg" width="20" height="20" />
     </RouterLink>
     <RouterLink to="/projects">Prosjekter
-      <img alt="projects_logo" class="project" src="@/assets/images/projects.svg" width="25" height="25" />
+      <img alt="projects_logo" class="project" src="@/assets/images/projects.svg" width="15" height="15" />
     </RouterLink>
     <a href="https://no.linkedin.com/in/abhirami-karunananthan-b81a5522a?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener">
       <span class="linkedin-text">LinkedIn </span>
-      <img alt="LinkedIn logo" class="icon" src="@/assets/images/linkedin.svg" width="20" height="20" />
+      <img alt="LinkedIn logo" class="icon" src="@/assets/images/linkedin.svg" width="10" height="10" />
     </a>
   </nav>
   <div>
