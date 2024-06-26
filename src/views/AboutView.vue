@@ -37,28 +37,30 @@ import {RouterLink} from "vue-router";
 
 <style scoped>
 
-@media (min-width: 1024px) {
+@media (max-width: 1023px) {
   header {
     line-height: 1.5;
     max-height: 100vh;
   }
 
-  #about{
+  #about {
     background-color: #fed9ca;
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
   }
 
-  .information{
+  .information {
     font-size: 14px;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
   }
-  p{
+
+  p {
 
   }
+
   nav {
     width: 100%;
     font-size: 12px;
@@ -83,27 +85,96 @@ import {RouterLink} from "vue-router";
     margin-top: 1rem;
   }
 
-  .bold{
+  .bold {
     font-weight: bold;
   }
 
-  .big{
+  .big {
     font-size: 18px;
     font-weight: bold;
   }
-  h1{
+
+  h1 {
     font-weight: bold;
     font-size: 15px;
   }
 
-  #inforow{
+  #inforow {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     margin: 20px;
   }
+}
+  @media (min-width: 1024px) {
+    header {
+      line-height: 1.5;
+      max-height: 100vh;
+    }
+
+    #about{
+      background-color: #fed9ca;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .information{
+      font-size: 14px;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    p{
+
+    }
+    nav {
+      width: 100%;
+      font-size: 12px;
+      text-align: end;
+      margin-top: 4rem;
+      position: fixed;
+      top: 0;
+      right: 0;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 0 1rem;
+      border-left: 1px solid var(--color-border);
+    }
+
+    nav {
+      text-align: right;
+      margin-left: -1rem;
+      font-size: 1rem;
+      padding: 1rem 0;
+      margin-top: 1rem;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+
+    .big{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    h1{
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    #inforow{
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+    }
 
 
 }
