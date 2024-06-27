@@ -41,6 +41,7 @@ import {RouterLink} from "vue-router";
     vertical-align: middle;
   }
 .weeeveinfo{
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +66,6 @@ import {RouterLink} from "vue-router";
     border-radius: 10px;
     height: 150px;
     width: 350px;
-    margin-top: -45px;
     margin-left: 54px;
     align-content: center;
     margin-right: 40px;
@@ -81,7 +81,7 @@ import {RouterLink} from "vue-router";
     align-content: center;
     text-align: center;
     justify-content: center;
-    width: 80%; /* Adjust width as needed */
+    width: 80%;
     max-width: 600px; /* Example: Set maximum width for the info box */
 
   }
