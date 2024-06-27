@@ -17,6 +17,7 @@ import {RouterLink} from "vue-router";
     </a>
   </nav>
 
+
   <div class="weeeveinfo">
     <img alt="Vue logo" class="image" src="@/assets/images/weeeve.png" width="490" height="200"/>
 
@@ -33,6 +34,7 @@ import {RouterLink} from "vue-router";
       </a>
     </div>
   </div>
+
 
 </template>
 
@@ -142,6 +144,14 @@ import {RouterLink} from "vue-router";
   }
 }
 @media (min-width: 1024px) {
+
+  .weeeveinfo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+
+  }
   .project{
     display: none;
   }
@@ -181,7 +191,7 @@ import {RouterLink} from "vue-router";
 
   .buttonswhatever a {
     flex: 1;
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     background-color: #fed9ca;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

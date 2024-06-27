@@ -71,7 +71,7 @@ import {RouterLink} from "vue-router";
   }
 
   .cards {
-    font-size: 15px;
+    font-size: 25px;
     display: flex;
     align-content: center;
     align-items: center;
