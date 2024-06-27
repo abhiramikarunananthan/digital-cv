@@ -25,11 +25,12 @@ import {RouterLink} from "vue-router";
         Vår applikasjon tillot brukere å lage <b class="bold">personlige GIF-animasjoner</b> ved å velge blant flere avatarer,
         ta bilder av seg selv med ulike ansiktsuttrykk, og deretter dele sin unike GIF med venner og familie.
       </p>
-      <div class="buttonswhatever">
-        <a href="https://play.google.com/store/apps/details?id=online.weeeve" target="_blank" rel="noopener">
-          Sjekk ut appen
-        </a>
-      </div>
+
+    </div>
+    <div class="buttonswhatever">
+      <a href="https://play.google.com/store/apps/details?id=online.weeeve" target="_blank" rel="noopener">
+        Sjekk ut appen
+      </a>
     </div>
   </div>
 
