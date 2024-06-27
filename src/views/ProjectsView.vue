@@ -63,6 +63,10 @@ import {RouterLink} from "vue-router";
 
   .container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
   }
 
   .innercontainer {
@@ -71,6 +75,8 @@ import {RouterLink} from "vue-router";
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+    gap: 20px;
   }
 
   .informationtext {
@@ -82,6 +88,7 @@ import {RouterLink} from "vue-router";
     font-size: 12px;
     width: 170px;
     min-height: 320px;
+    margin: 10px;
   }
 
   .buttons {
