@@ -5,7 +5,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/images/cv_image.jpg" width="125" height="125" />
+    <router-link to="/">
+      <img alt="Vue logo" class="logo" src="@/assets/images/cv_image.jpg" width="125" height="125" />
+    </router-link>
 
 
 

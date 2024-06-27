@@ -76,13 +76,14 @@ import {RouterLink} from "vue-router";
   .info-box {
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     align-content: center;
     text-align: center;
     justify-content: center;
     width: 80%;
-    max-width: 600px; /* Example: Set maximum width for the info box */
+    max-width: 600px;
+    margin-top: 20px/* Example: Set maximum width for the info box */
 
   }
 
