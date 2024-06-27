@@ -27,11 +27,14 @@ import {RouterLink} from "vue-router";
     </div>
     <div class="text-box">
       <p>
-        Formålet med applikasjonen var å <b class="bold">redusere matsvinn ved å tilby brukerne muligheten til å
-        generere
-        matretter basert på tilgjengelige restematvarer i deres kjøleskap.</b> Smartmat ble designet med
-        responsivt grensesnitt som tilpasser seg både mobiltelefoner og datamaskiner, noe som gir en dynamisk
-        brukeropplevelse på ulike enheter. Sjekk ut repoene:
+        Formålet med applikasjonen var å <b class="bold">redusere matsvinn</b> ved å hjelpe brukerne
+        med å <b class="bold">generere matretter</b> basert på restematvarer tilgjengelig i deres
+        kjøleskap. Smartmat ble utviklet med et <b class="bold">responsivt grensesnitt</b> som
+        tilpasser seg både mobiltelefoner og datamaskiner, og dermed gir en dynamisk
+        brukeropplevelse på ulike enheter.
+
+        Hvis du ønsker å se nærmere på prosjektet,
+        kan du sjekke ut repoene:
       </p>
     </div>
     <div id="buttonrow">
@@ -86,6 +89,7 @@ import {RouterLink} from "vue-router";
   }
 
   .text-box {
+    text-align: center;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
@@ -183,6 +187,7 @@ import {RouterLink} from "vue-router";
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
   }
 
   #buttonrow{

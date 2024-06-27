@@ -19,25 +19,22 @@ import {RouterLink} from "vue-router";
   <div class="container">
     <div class="innercontainer">
       <div class="informationtext">
-        <p>Mitt sommerinternship hos Zedge AS var en milepæl,
-          hvor jeg på få uker over sommeren fikk muligheten til
-          å lære meg Kotlin og sammen med det tverrfaglige teamet
-          mitt lansere en applikasjon på Google Play Store. Denne opplevelsen
-          fikk meg til å innse min evne til å lære teknologier på kort tid med
-          hjelp av dyktige kolleger rundt meg.</p>
+        <p>Mitt sommerinternship hos Zedge AS var en betydningsfull milepæl hvor jeg på kort tid lærte meg
+          Kotlin og sammen med et tverrfaglig team lanserte en applikasjon på Google Play Store.
+          Denne erfaringen ga meg verdifull innsikt i min evne til raskt å tilegne meg nye teknologier,
+          støttet av kompetente kolleger.
+
+        </p>
       </div>
       <RouterLink class="buttons" to="/weeeve">Weeeve</RouterLink>
     </div>
     <div class="innercontainer">
       <div class="informationtext">
-        <p> En av mine favoritt prosjekt jeg fikk gleden av
-          å være med på var gjennom et prosjekt i
-          faget Systemutvikling 2. Dette prosjektet ga
-          meg et realistisk innblikk i arbeidslivet, hvor jeg
-          lærte verdien av scrum metodikken og betydningen av
-          strukturert samarbeid. Det var en øyeåpnende erfaring
-          som styrket min forståelse for teamarbeid og smidig
-          arbeidsmetoder. </p>
+        <p> Et av mine mest verdifulle prosjekter var fra faget Systemutvikling 2, hvor jeg fikk muligheten
+          til å delta i et teamprosjekt. Denne erfaringen ga meg et realistisk innblikk i arbeidslivet og
+          styrket min forståelse av Scrum-metodikken og viktigheten av strukturert samarbeid. Det var en
+          øyeåpnende opplevelse som dypt etablerte betydningen av teamarbeid og smidige arbeidsmetoder
+          for meg. </p>
       </div>
       <RouterLink class="buttons" to="/smartmat">Smartmat</RouterLink>
     </div>
@@ -83,7 +80,7 @@ import {RouterLink} from "vue-router";
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 12px;
-    width: 178px;
+    width: 185px;
     margin: 2px;
     min-height: 300px;
 
