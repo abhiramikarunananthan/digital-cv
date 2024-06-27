@@ -23,8 +23,8 @@ import {RouterLink} from "vue-router";
           Kotlin og sammen med et tverrfaglig team lanserte en applikasjon på Google Play Store.
           Denne erfaringen ga meg verdifull innsikt i min evne til raskt å tilegne meg nye teknologier,
           støttet av kompetente kolleger.
-
         </p>
+
       </div>
       <RouterLink class="buttons" to="/weeeve">Weeeve</RouterLink>
     </div>
@@ -35,7 +35,7 @@ import {RouterLink} from "vue-router";
           styrket min forståelse av Scrum-metodikken og viktigheten av strukturert samarbeid. Det var en
           øyeåpnende opplevelse som dypt etablerte betydningen av teamarbeid og smidige arbeidsmetoder
           for meg. </p>
-      </div>
+        </div>
       <RouterLink class="buttons" to="/smartmat">Smartmat</RouterLink>
     </div>
   </div>
@@ -43,6 +43,7 @@ import {RouterLink} from "vue-router";
 
 <style scoped>
 @media (max-width: 1023px) {
+
   .icon{
     vertical-align: middle;
   }
@@ -62,7 +63,6 @@ import {RouterLink} from "vue-router";
 
   .container {
     display: flex;
-
   }
 
   .innercontainer {
@@ -77,14 +77,11 @@ import {RouterLink} from "vue-router";
     flex: 1;
     background-color: #ffffff;
     border-radius: 10%;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 12px;
-    width: 185px;
-    margin: 2px;
-    min-height: 300px;
-
-
+    width: 170px;
+    min-height: 320px;
   }
 
   .buttons {
@@ -98,12 +95,13 @@ import {RouterLink} from "vue-router";
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 15px;
     font-size: 16px;
     font-weight: bold;
     align-content: center;
     max-width: 126px;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
   }
 
   .buttons:hover {
@@ -222,6 +220,10 @@ import {RouterLink} from "vue-router";
   }
   .linkedin-text {
     display: none;
+  }
+  .icon{
+    width: 20px;
+    height: 20px;
   }
 }
 </style>

@@ -65,6 +65,7 @@ import {RouterLink} from "vue-router";
     border-radius: 10px;
     height: 150px;
     width: 350px;
+    margin-top: -45px;
     margin-left: 54px;
     align-content: center;
     margin-right: 40px;
@@ -218,6 +219,10 @@ import {RouterLink} from "vue-router";
   }
   .linkedin-text {
     display: none;
+  }
+  .icon{
+    width: 20px;
+    height: 20px;
   }
 }
 </style>

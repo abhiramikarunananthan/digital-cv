@@ -101,6 +101,7 @@ import {RouterLink} from "vue-router";
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 40px;
   }
 
 
@@ -252,6 +253,10 @@ import {RouterLink} from "vue-router";
   }
   .linkedin-text {
     display: none;
+  }
+  .icon{
+    width: 20px;
+    height: 20px;
   }
 }
 </style>
