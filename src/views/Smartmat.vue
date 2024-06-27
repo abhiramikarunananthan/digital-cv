@@ -117,7 +117,7 @@ import {RouterLink} from "vue-router";
     border-radius: 4px;
     cursor: pointer;
     margin: 15px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     align-content: center;
     max-width: 126px;
