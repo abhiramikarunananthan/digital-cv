@@ -41,7 +41,7 @@ import {RouterLink} from "vue-router";
     vertical-align: middle;
   }
 .weeeveinfo{
-  margin-top: -70px;
+  margin-top: -100px;
   display: flex;
   justify-content: center;
   align-items: center;
