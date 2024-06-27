@@ -63,7 +63,6 @@ import {RouterLink} from "vue-router";
 
   .image {
     border-radius: 10px;
-    margin-top: 70px;
     height: 150px;
     width: 350px;
     margin-left: 54px;

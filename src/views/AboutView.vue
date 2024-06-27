@@ -18,17 +18,20 @@ import {RouterLink} from "vue-router";
   <div>
     <div id="about">
       <h1>Om meg:</h1>
-      <p>Jeg heter <b class="bold">Abhirami Karunananthan</b> og er 23 år. For øyeblikket er jeg sisteårsstudent innen
-        bachelor i <b class="bold">dataingeniør</b> ved <b class="bold">NTNU Trondheim</b>. Min lidenskap for teknologi og utvikling er det
-        som drev meg til å velge dette studieprogrammet. Gjennom mine akademiske opplevelser har jeg
-        utviklet solid kunnskap innenfor  <b class="bold">programmering</b>, samtidig som jeg kontinuerlig søker nye
-        utfordringer og muligheter for <b class="bold">faglig vekst</b>. <b class="big"> <br>Ta kontakt dersom du føler arbeidsplassen din  passer meg!</b> </p>
+      <p>
+        Jeg heter <b class="bold">Abhirami Karunananthan</b>, 23 år gammel, og er akkurat ferdig med en
+        bachelorgrad i <b class="bold">dataingeniør</b> ved <b class="bold">NTNU</b> i <b class="bold">Trondheim</b>.
+        Jeg er lidenskapelig opptatt av <b class="bold">teknologi</b> og <b class="bold">utvikling</b>,
+        noe som har vært avgjørende for mitt valg av studie. Gjennom mine studier har jeg opparbeidet
+        solid kompetanse innen <b class="bold">programmering</b>, og jeg er stadig på jakt etter <b class="bold">nye utfordringer</b> og muligheter for <b class="bold">faglig utvikling</b>.
+         <b class="big"> <br>Ta gjerne kontakt hvis du mener din bedrift kan tilby en passende mulighet for meg!
+         </b> </p>
     </div>
 
     <div id="inforow">
       <div class="information">
         <h1> Programmeringsspråk:</h1>
-        <p> Java, Python, Kotlin,<br/> Javascript, C++ & SQL </p>
+        <p> Java, Python, Kotlin,<br/> Javascript, C++, C# & SQL </p>
       </div>
       <div class="information">
         <h1>Kontakt:</h1>
